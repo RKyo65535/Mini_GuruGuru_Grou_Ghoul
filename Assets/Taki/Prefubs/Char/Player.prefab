@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7198234727594573387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3098597149443261983}
+  - component: {fileID: 8328513129024646991}
+  - component: {fileID: 1864214441094829843}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3098597149443261983
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7198234727594573387}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &8328513129024646991
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7198234727594573387}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 1118377893
+  m_SortingLayer: 1
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 0b43dc8f1cebc0d409e8e67b14cf05dc, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3, y: 3}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &1864214441094829843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7198234727594573387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c7fd316a25fb84ba78d735da2a87ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillMasterData: {fileID: 11400000, guid: a9e90e85eec741f41bee999a652f5088, type: 2}
+  gameFlow: {fileID: 0}
+  currentChar: {fileID: 0}
+  currentSkillNameText: {fileID: 0}
+  currentSkillExprainText: {fileID: 0}
+  whiteAttackBar: {fileID: 8768899533230473914, guid: 9b9851f9363062e439d0e2b8ec6e44e3,
+    type: 3}
+  blackAttackBar: {fileID: 8768899533230473914, guid: ccace7fc5c5a96d4a89339aec592cb86,
+    type: 3}
+  poisonAttackBar: {fileID: 8768899533230473914, guid: 94668b99af802e54eaa3e59dac79b06e,
+    type: 3}
+  orangeBomb: {fileID: 8271548673032169618, guid: 0bf9af2bfc8eb804fb711757ce068d77,
+    type: 3}
+  fireEffect: {fileID: 7772307590475190142, guid: a6913f83416ab7f438510b71adf0236f,
+    type: 3}
+  aquaEffect: {fileID: 1047626705775885756, guid: acdf7b6dfabac4e47833d23667e56e76,
+    type: 3}
+  windEffect: {fileID: 5761190040741502230, guid: 70629f2854f6f844e87b1c81ad66130b,
+    type: 3}
+  holyEffect: {fileID: 271537484927588820, guid: f8b8ec69931354240bad40ac40b2a5d7,
+    type: 3}
+  darkEffect: {fileID: 2900786463780732512, guid: d5f2957c9c3472e448021d3703adce8a,
+    type: 3}
+  misticEffect: {fileID: 7837639790868069278, guid: 2e0dce0b49ea0a445a6591d697ee48d6,
+    type: 3}
+  alphabetTexts: []
+  attacRangePredictions: []
